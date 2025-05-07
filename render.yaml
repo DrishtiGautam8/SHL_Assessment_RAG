@@ -1,8 +1,8 @@
 services:
   - type: web
-    name: streamlit-shl-ui
+    name: api-shl-ui
     env: python
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "streamlit run main.py --server.port $PORT --server.enableCORS false"
+    startCommand: "streamlit run api.py --server.port $PORT --server.enableCORS false"
     plan: free
     autoDeploy: true
