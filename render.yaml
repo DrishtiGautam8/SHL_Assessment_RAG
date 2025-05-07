@@ -3,6 +3,6 @@ services:
     name: api-shl-ui
     env: python
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "streamlit run api.py --server.port $PORT --server.enableCORS false"
+    startCommand: "render run api.py --server.port $PORT --server.enableCORS false"
     plan: free
     autoDeploy: true
