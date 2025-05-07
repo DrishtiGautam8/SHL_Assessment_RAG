@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+medical_db/
+config.env
+assessment_db
+extra.py
+llm-evaluation-helleoww-b0996a2347dc.json
+*.csv
+*.log
+streamlit_api.py
