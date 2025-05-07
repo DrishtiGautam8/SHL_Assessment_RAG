@@ -12,7 +12,7 @@ DEBUG = True
 
 # Load API key
 load_dotenv()
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+GOOGLE_API_KEY = st.secrets("GOOGLE_API_KEY")
 if not GOOGLE_API_KEY:
     raise EnvironmentError("Set GOOGLE_API_KEY in your environment")
 
